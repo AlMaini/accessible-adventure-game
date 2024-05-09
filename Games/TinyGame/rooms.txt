@@ -1,0 +1,90 @@
+1
+Outside building
+You are standing at the end of a road before a small brick building.  A small stream flows out of the building and down a gully to the south.  A road runs up a small hill to the west.
+-----
+WEST       2
+UP         2
+NORTH      3
+IN         3
+SOUTH      4
+DOWN       4
+LEFT       11/MINIGAME
+
+2
+End of road
+You are at the end of a road at the top of a small hill. You can see a small building in the valley to the east.
+-----
+EAST       1
+WEST       3
+DOWN       3
+
+3
+Inside building
+You are inside a building, a well house for a large spring. The exit door is to the south.  There is another room to the north, but the door is barred by a shimmering curtain.
+-----
+SOUTH      1
+WEST       5
+OUT        6/BIRD
+OUT        1
+NORTH     3
+XYZZY     2/BOOK
+XYZZY     1
+PLUGH     2/BOOK
+PLUGH     1
+
+4
+Valley beside a stream
+You are in a valley in the forest beside a stream tumbling along a rocky bed.  The stream is flowing to the south.
+-----
+NORTH      1
+UP         1
+SOUTH      5
+DOWN       5
+WEST       5
+
+5
+Slit in rock
+At your feet all the water of the stream splashes into a two-inch slit in the rock.  To the south, the streambed is bare rock.
+-----
+NORTH      4
+UP         4
+SOUTH      6
+DOWN       6
+WEST       6
+
+6
+Curtain1
+You are passing through a curtain!
+-----
+FORCED    7/BIRD
+FORCED    9
+
+7
+Curtain2
+You are passing through another curtain!
+-----
+FORCED    8
+
+8
+Curtain3
+Yet another curtain here!
+-----
+FORCED    10
+
+9
+Missing Treasures
+You can pass through this curtain only if you're carrying all the treasures.  You don't yet have all of them.
+-----
+FORCED     3
+
+10
+Victory
+You have collected all the treasures and are admitted to the Adventurer's Hall of Fame.  Congratulations!
+-----
+FORCED     0
+
+11
+NEW room
+THIS IS A NEW ROOM
+-----
+NORTH      1

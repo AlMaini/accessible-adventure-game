@@ -1,0 +1,21 @@
+To play this game you must move between locations and interact with objects by typing one or two word commands.
+
+Some commands are motion commands.  These will move you from room to room. Motion commands include:
+
+UP, DOWN, EAST, WEST, NORTH, SOUTH
+
+Not all motions are possible in every room. In addition, some rooms may have "special" or "secret" motion commands.
+
+There are other action commands in the game. These include:
+
+COMMANDS: this will print the moves that are legal in a given room.
+HELP: this will display instructions
+INVENTORY: this will print your current inventory.
+LOOK: this will print the description for the current room.
+TAKE <object>: this will take an object from a room and place it in your inventory. Replace <object> with the name of the object to take.  The object must be present in the room in order to take it.
+DROP <object>: this will drop an object in your inventory. Replace <object> with the name of the object to drop. The object must be in your inventory to drop it.
+
+Some paths may be blocked.  To unblock a path you may need a specific object to be in your inventory.
+
+The game is over when your player reaches the VICTORY room, or when your player DIES.
+
